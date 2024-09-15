@@ -226,7 +226,7 @@ const toggleVideoVisibility = () => {
         }
     
         const jsonData = await response.json();
-        console.log('Saved model data:', jsonData);
+        navigate(`/my-space/make-quiz/${idCourse}`);
       } catch (error) {
         console.error('Error:', error);
       }
