@@ -1,0 +1,43 @@
+.custom-button2 {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 5px;
+  background: linear-gradient(45deg, #6a11cb, #9f25fc);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  border: none;
+  font-size: 12px;
+  background-size: 200%;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-position 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  box-shadow: 0 10px 20px rgba(158, 33, 225, 0.4), 0 20px 40px rgba(243, 7, 255, 0.2);
+}
+.custom-button2:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-position: 100% 0;
+  box-shadow: 0 15px 30px rgba(252, 92, 255, 0.5), 0 25px 50px rgba(153, 0, 255, 0.3);
+}
+
+.custom-button3 {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 5px;
+  background: linear-gradient(45deg, #40ff00, #11500d);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  border: none;
+  font-size: 12px;
+  background-size: 200%;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-position 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  box-shadow: 0 10px 20px rgba(33, 225, 55, 0.4), 0 20px 40px rgba(7, 255, 114, 0.2);
+}
+.custom-button3:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-position: 100% 0;
+  box-shadow: 0 15px 30px rgba(46, 232, 13, 0.5), 0 25px 50px rgba(106, 255, 6, 0.3);
+}/*# sourceMappingURL=button.css.map */

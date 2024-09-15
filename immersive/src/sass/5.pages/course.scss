@@ -1,0 +1,60 @@
+.lms.course-list{
+    font-size: .9em;
+    .course-list-columns{
+        color: $colour-black;
+        text-transform: uppercase;
+    }
+    .course-list-columns , .course{
+        height: 90px;
+        margin-top: 15px;
+        padding-left: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* X-offset Y-offset Blur-radius Color */
+    }
+    .couse-head{
+        height: 40px !important;
+    }
+    .course{
+        text-decoration: none;
+        color: $colour-transparent-grey;
+        &:hover{
+            color: $colour-transparent-black;
+        }
+        a {
+            color: $colour-blue !important;
+            border-bottom: 1px solid $colour-blue !important;
+            &:hover{
+                color: $colour-dark-blue !important;
+            }
+        }
+        .editCourseButton{
+            padding: 8px 5px ;
+            max-width: 120px;
+            color: $colour-white !important;
+            text-align: center;
+            background-color: $colour-blue !important;
+            border-radius: 5px;
+        }
+        .course-list-previewImg{
+            @media (max-width:768px){
+                max-width: 100% !important;
+                min-width: 80% !important;
+            }
+        }
+    }
+    .course{
+        .row{
+            img{
+                width: 150px;
+                max-height: 80px;
+                object-fit: cover;
+            }
+        }
+    }
+    a,thead , tbody{
+        font-size: .9em;
+        @media (max-width:768px){
+            font-size: .7em;
+        }
+        
+    }
+}

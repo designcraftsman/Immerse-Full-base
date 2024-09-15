@@ -1,0 +1,26 @@
+.profile-img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    @media (max-width:500px) {
+        height: 25px;
+        width: 25px;
+    }
+    @media (min-width:501px) and (max-width:768px) {
+        height: 30px;
+        width: 30px;
+    }
+}
+#userCollapse{
+    a{
+        background-color: $colour-white;
+        color: $colour-black !important;
+    }
+}
+
+.notifications-number{
+    @media (max-width:768px) {
+        font-size: .6em !important;
+    }
+
+}

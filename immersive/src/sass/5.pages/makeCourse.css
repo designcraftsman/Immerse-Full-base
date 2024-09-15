@@ -1,0 +1,41 @@
+.make-course-up-body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f9fa;
+}
+.make-course-up-body .course-card {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  background: white;
+}
+.make-course-up-body .course-form .form-group,
+.make-course-up-body .file-upload-form .form-group,
+.make-course-up-body .more-assets-form .form-group,
+.make-course-up-body .additional-assets-form .form-group {
+  margin-bottom: 1rem;
+}
+.make-course-up-body .form-label {
+  font-weight: 600;
+}
+.make-course-up-body #courseCarousel .carousel-controls {
+  position: fixed;
+  bottom: 20px;
+  width: 100% !important;
+  transform: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30px;
+  margin: auto;
+  right: 0% !important;
+}
+.make-course-up-body #courseCarousel .carousel-controls .btn {
+  width: 150px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.make-course-up-body .card h3 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #343a40;
+}/*# sourceMappingURL=makeCourse.css.map */

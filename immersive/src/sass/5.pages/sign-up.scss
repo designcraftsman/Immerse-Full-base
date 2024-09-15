@@ -1,0 +1,101 @@
+#medium-to-large-device-sign-up {
+    display: none !important;
+}
+/* Hide sign-up for small devices by default */
+#small-device-sign-up {
+    display: none !important;
+}
+/* Media query for medium and large devices */
+@media (min-width: 768px) {
+    #small-device-sign-up {
+        display: none !important;
+    }
+    #medium-to-large-device-sign-up {
+        display: flex !important;
+    }
+}
+/* Media query for small devices */
+@media (max-width: 767px) {
+    #medium-to-large-device-sign-up {
+        display: none !important;
+    }
+    #small-device-sign-up {
+        display: flex !important;
+    }
+}
+
+.sign-up-body {
+    .form-group {
+        min-width: 200px;  
+        input, select , textarea{
+            font-size: .8em !important;
+            height: 30px;
+        }
+    }
+
+    .carousel-item {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        filter: invert(100%);
+        font-size: .8em;
+        @media (max-width: 1000px){
+            font-size: .7em;
+        }
+    }
+
+    .container-fluid {
+        display: flex;
+        height: 100vh;
+    }
+
+    .carousel-controls {
+        position: absolute;
+        bottom: 50px;
+        transform: translateX(75%);
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .carousel-controls button {
+        background-color: $colour-white;
+        color: $colour-black;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 5px;
+        border-radius: 5px;
+        font-size: .8em;
+        @media (max-width: 1000px){
+            font-size: .6em;
+        }
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .carousel-controls button:hover {
+        background-color: #5a32a1;
+    }
+
+    .left-panel, .right-panel {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-panel {
+        text-align: center;
+    }
+
+    .right-panel {
+        background: linear-gradient(45deg, #6a11cb, #9f25fc);
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+}

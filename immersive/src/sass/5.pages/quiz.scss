@@ -1,0 +1,21 @@
+#quiz-container{
+    max-width: 800px !important;
+    margin: auto;
+    .quiz-title{
+        font-size:40px !important;
+        font-weight: 800;
+    }
+    .quiz-description{
+        font-size: 1em;
+    }
+    .quiz-question{
+        font-size: 1.2em;
+    }
+    .quiz-option{
+        margin-left: 15px;
+        color: $colour-transparent-black;
+    }
+    .options-container{
+        border-left: 1px solid $colour-transparent-black;
+    }
+}

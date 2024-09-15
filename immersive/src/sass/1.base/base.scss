@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+div .lms{
+    //font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .5px;
+    color: $colour-black;
+    background-color: $colour-white !important;
+    max-width:2000px;
+    margin: auto;
+    .underline{
+        text-decoration: underline !important;
+    }
+    a, a:hover{
+        text-decoration: none !important;
+        color: inherit !important;
+    }
+    .card{
+        background-color: $colour-white;
+    }
+    ul {
+        list-style: none;
+    }
+    .camera-previewImg-button{
+        background-color: $colour-transparent-grey;
+    }
+    .text-blue{
+        color: $colour-blue;
+    }
+    
+}

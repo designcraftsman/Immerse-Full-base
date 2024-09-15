@@ -1,0 +1,33 @@
+.group{
+    height: 60px;
+    @media (max-width:768px) {
+        height: auto;
+    }
+    padding: 10px;
+    .group-profile{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }   
+    .group-name{
+        font-weight: 700;
+    }
+    .group-last-msg{
+        font-size: .8em;
+        color: $colour-dark-gray2;
+        @media (max-width:768px) {
+            font-size: .7em;
+        }
+    }
+    .group-last-msg-time{
+        font-size: .8em;
+        text-transform: uppercase;
+        @media (max-width:768px) {
+            font-size: .7em;
+        }
+    }
+    a , a:hover{
+        text-decoration: none;
+        color: inherit;
+    }
+}

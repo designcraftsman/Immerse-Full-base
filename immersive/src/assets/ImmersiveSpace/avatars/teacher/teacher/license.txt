@@ -1,0 +1,11 @@
+Model Information:
+* title:	Man Teacher
+* source:	https://sketchfab.com/3d-models/man-teacher-67f530cd8306443fa5c5609f17a95457
+* author:	izyanmohamood (https://sketchfab.com/izyanmohamood)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Man Teacher" (https://sketchfab.com/3d-models/man-teacher-67f530cd8306443fa5c5609f17a95457) by izyanmohamood (https://sketchfab.com/izyanmohamood) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

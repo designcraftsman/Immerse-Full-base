@@ -1,0 +1,10 @@
+.notifications{
+    font-size: .8em;
+    
+}
+.notifications-icon{
+    @media (max-width:768px) {
+        height: 15px;
+        width: 15px;
+    }
+}

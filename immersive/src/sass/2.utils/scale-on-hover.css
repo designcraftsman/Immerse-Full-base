@@ -1,0 +1,15 @@
+.scale-on-hover {
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.scale-on-hover:hover {
+  transform: scale(1.1); /* Scale up the element */
+}
+
+.small-scale-on-hover {
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.small-scale-on-hover:hover {
+  transform: scale(1.02); /* Scale up the element */
+}/*# sourceMappingURL=scale-on-hover.css.map */

@@ -1,0 +1,10 @@
+.notifications {
+  font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+  .notifications-icon {
+    height: 15px;
+    width: 15px;
+  }
+}/*# sourceMappingURL=notifications.css.map */

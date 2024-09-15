@@ -1,0 +1,15 @@
+.students{
+    .table{
+        border-radius: 20px !important;
+        font-size: .8em;
+        img{
+            border-radius: 50% !important;
+            object-fit: cover;
+            width: 30px !important;
+            height: 30px !important;
+        }
+        .gender{
+            color: $colour-transparent-grey;
+        }
+    }
+}

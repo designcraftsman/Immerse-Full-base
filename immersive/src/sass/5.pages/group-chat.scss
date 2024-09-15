@@ -1,0 +1,117 @@
+.group-chat {
+    .group-chat-head {
+        background-color: $colour-transparent-grey;
+        height: 60px;
+        padding: 10px;
+        .group-profile {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .group-name {
+            font-weight: 700;
+            color: $colour-white;
+        }
+        .group-last-msg-time {
+            margin-top: 8px;
+            color: $colour-white;
+            font-size: .8em;
+            text-transform: uppercase;
+        }
+        .group-last-msg {
+            font-size: .8em;
+            color: $colour-white;
+        }
+    }
+
+    .group-chat-msgs {
+        padding: 10px;
+        overflow-y: auto;
+        margin-bottom: 70px;
+
+        .msgs-pack {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-bottom: 15px;
+
+            &.current-user {
+                flex-direction: row-reverse; // Align the profile picture to the right
+                .user-profile {
+                    margin-right: 0; // Remove margin on the right for the current user
+                    margin-left: 10px;
+                }
+                .msg-content {
+                    align-items: flex-end;
+                    .user-msg {
+                        border-radius: 15px 15px 0 15px;
+                        background: linear-gradient(45deg, #6a11cb, #9f25fc);
+                        background-size: 200%;
+                        color: $colour-white;
+                        margin-left: auto; // Push to the right
+                        .msg-time {
+                            color: $colour-light-gray2 !important;
+                        }
+                    }
+                }
+            }
+            // Default styling for other users' messages
+            .user-profile {
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
+            .msg-content {
+                display: flex;
+                flex-direction: column;
+                .user-name {
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+                .user-msg {
+                    border-radius: 15px 15px 15px 0;
+                    background-color: $colour-transparent-grey2;
+                    padding: 10px;
+                    position: relative;
+                    margin-bottom: 5px;
+                    font-size: .8em;
+                    .msg-time {
+                        position: absolute;
+                        bottom: 2px;
+                        right: 10px;
+                        font-size: 0.7em;
+                        color: $colour-transparent-grey;
+                    }
+                }
+            }
+        }
+    }
+
+    .group-chat-new-msg {
+        position: fixed;
+        bottom: 0;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        .new-msg-input {
+            font-size: .8em;
+            flex: 1;
+            border: 1px solid $colour-transparent-grey2;
+            border-radius: 20px;
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+        .send-btn {
+            background-color: $colour-transparent-grey2;
+            border: none;
+            border-radius: 20px;
+            padding: 5px 15px;
+            cursor: pointer;
+            &:hover {
+                background-color: darken($colour-transparent-grey2, 10%);
+            }
+        }
+    }
+}

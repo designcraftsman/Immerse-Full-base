@@ -1,0 +1,51 @@
+// Custom.scss
+// Include any default variable overrides here (though functions won't be available)
+
+
+
+
+// utils
+@import "../sass/2.utils/variables.scss";
+@import "../sass/2.utils/scale-on-hover.scss";
+@import "../sass/2.utils/load-more.scss";
+@import "../sass/2.utils/correctAnswer.scss";
+// theme 
+@import "../sass/6.themes/themes.scss";
+// base
+@import "../sass/1.base/base.scss";
+// Components
+@import "../sass/4.components/navbar.scss";
+@import "../sass/4.components/form.scss";
+@import "../sass/4.components/search.scss";
+@import "../sass/4.components/profile-pic.scss";
+@import "../sass/4.components/page-helper.scss";
+@import "../sass/4.components/button.scss";
+@import "../sass/4.components/footer.scss";
+@import "../sass/4.components/course-card.scss";
+@import "../sass/4.components/group.scss";
+@import "../sass/4.components/assetModal.scss";
+@import "../sass/4.components/contextMenu.scss";
+@import "../sass/4.components/course-offcanvas.scss";
+
+// Pages
+@import "../sass/5.pages/course.scss";
+@import "../sass/5.pages/groups.scss";
+@import "../sass/5.pages/dashboard.scss";
+@import "../sass/5.pages/profile.scss";
+@import "../sass/5.pages/settings.scss";
+@import "../sass/5.pages/assets.scss";
+@import "../sass/5.pages/group-chat.scss";
+@import "../sass/5.pages/profile.scss";
+@import "../sass/5.pages/students.scss";
+@import "../sass/5.pages/notifications.scss";
+@import "../sass/5.pages/sign-up.scss";
+@import "../sass/5.pages/makeCourse.scss";
+@import "../sass/5.pages/create-group.scss";
+@import "../sass/5.pages/makeQuiz.scss";
+@import "../sass/5.pages/quiz.scss";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+
+

@@ -1,0 +1,12 @@
+.page-helper{ 
+    a , a:hover , i {
+        color: $colour-transparent-black;
+        text-decoration: none;
+    }
+    font-size: .8em;
+    span{
+        font-size: .9em;
+        margin: 0 5px;
+        color: $colour-transparent-grey;
+    }
+}

@@ -1,0 +1,38 @@
+.profile{
+    font-size: .8em;
+    min-width: 500px;
+    max-width: 700px;
+
+
+    .profile-image-container {
+        position: relative;
+    }
+    .profile-image-container img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid black;
+        padding: 3px;
+    }
+    .edit-icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: rgb(156, 156, 156);
+        border-radius: 50%;
+        z-index: 300;
+    }
+    .edit-icon input[type="file"] {
+        display: none;
+    }
+    input::placeholder , input::content , input::-ms-value , input:focus {
+        font-size: .8em !important;
+    }
+    .user-id-container{
+        .user-id{
+            color: $colour-blue;
+        }
+    }
+    
+}

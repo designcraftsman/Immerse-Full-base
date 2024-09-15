@@ -1,0 +1,49 @@
+.make-course-up-body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+
+
+    .course-card {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 15px;
+        background: $colour-white;
+    }
+    
+    .course-form .form-group, 
+    .file-upload-form .form-group, 
+    .more-assets-form .form-group, 
+    .additional-assets-form .form-group {
+        margin-bottom: 1rem;
+    }
+    
+    .form-label {
+        font-weight: 600;
+    }
+    
+    #courseCarousel .carousel-controls {
+        position: fixed;
+        bottom: 20px;
+        width: 100% !important;
+        transform: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 30px;
+        margin: auto;
+        right: 0% !important;
+    }
+    
+    #courseCarousel .carousel-controls .btn {
+        width: 150px;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+    
+    .card h3 {
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        color: #343a40;
+    }
+
+}

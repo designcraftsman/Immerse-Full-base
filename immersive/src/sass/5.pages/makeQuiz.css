@@ -1,0 +1,215 @@
+.make-quiz .review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.make-quiz .review-form .form-group {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+}
+.make-quiz .review-form .form-group label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.make-quiz .review-form .form-group input,
+.make-quiz .review-form .form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out;
+}
+.make-quiz .review-form .form-group input:focus,
+.make-quiz .review-form .form-group textarea:focus {
+  border-color: #007bff;
+}
+.make-quiz .review-form .form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.make-quiz .review-form .question-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+.make-quiz .review-form .question-container .question-item {
+  margin-bottom: 1.5rem;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.make-quiz .review-form .question-container .question-item .question-text {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+.make-quiz .review-form .question-container .question-item .answer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.make-quiz .review-form .question-container .question-item .answer-list .answer-item {
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: #555;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+.make-quiz .review-form .question-container .question-item .answer-list .answer-item.correct {
+  font-weight: bold;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+.make-quiz .review-form .button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 350px;
+  margin-top: 1.5rem;
+}
+.make-quiz .review-form .button-group .btn {
+  flex: 1;
+  margin: 0 0.5rem;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+.make-quiz .review-form .button-group .btn.btn-prev {
+  background-color: #6c757d;
+  color: #fff;
+}
+.make-quiz .review-form .button-group .btn.btn-next {
+  background-color: #007bff;
+  color: #fff;
+}
+.make-quiz .review-form .button-group .btn:hover {
+  opacity: 0.9;
+}
+
+#create-quiz-carousel {
+  box-sizing: border-box;
+}
+#create-quiz-carousel .carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+#create-quiz-carousel .carousel-item.active {
+  display: block;
+}
+#create-quiz-carousel .carousel-item form {
+  width: 100%;
+  max-width: 900px;
+  min-height: 80vh;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+#create-quiz-carousel .carousel-item form .form-group {
+  margin-bottom: 20px;
+  min-width: 100%;
+}
+#create-quiz-carousel .carousel-item form .form-group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+#create-quiz-carousel .carousel-item form .form-group input[type=text],
+#create-quiz-carousel .carousel-item form .form-group textarea,
+#create-quiz-carousel .carousel-item form .form-group input[type=file] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out;
+}
+#create-quiz-carousel .carousel-item form .form-group input[type=text]:focus,
+#create-quiz-carousel .carousel-item form .form-group textarea:focus,
+#create-quiz-carousel .carousel-item form .form-group input[type=file]:focus {
+  border-color: #007bff;
+}
+#create-quiz-carousel .carousel-item form .form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+#create-quiz-carousel .carousel-item form .form-group img {
+  display: block;
+  border-radius: 6px;
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+}
+#create-quiz-carousel .carousel-item form .btn {
+  position: absolute;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #ffffff;
+  transition: background-color 0.2s ease-in-out;
+}
+#create-quiz-carousel .carousel-item form .btn:hover {
+  background-color: #0056b3;
+}
+#create-quiz-carousel .carousel-item form .btn.btn-prev {
+  left: 20px;
+  bottom: 20px;
+}
+#create-quiz-carousel .carousel-item form .btn.btn-next {
+  bottom: 20px;
+  right: 20px;
+}
+#create-quiz-carousel .carousel-item .make-quiz-form {
+  max-width: 900px;
+}
+#create-quiz-carousel .suggestions-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+#create-quiz-carousel .suggestions-list li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f1f1;
+}
+#create-quiz-carousel .suggestions-list li:hover {
+  background: #f0f0f0;
+}
+#create-quiz-carousel p {
+  font-size: 1rem;
+}
+#create-quiz-carousel .answer-options {
+  list-style: circle !important;
+}/*# sourceMappingURL=makeQuiz.css.map */
